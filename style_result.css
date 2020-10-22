@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container{
+    height: 82px;
+    background-color:rgb(1, 1, 41);
+    padding: 20px 0;
+    
+    display: flex;
+    justify-content: start;
+}
+
+.menu{
+    width: 1200px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+
+.link{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 700;
+    color: darkgoldenrod;  
+
+}
+
+
+
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+    justify-items: center;
+    background-color:rgb(1, 1, 41) ;
+    
+
+  }
+
+  
+  /* Add some padding inside the card container */
+  .text {
+    padding: 2px 16px;
+  }  
+
+#rowOfCard1{
+    margin-top: 5px;
+    display: block;
+    margin-bottom: 5px ;
+
+}
+
+#rowOfCard2{
+    display: block;
+    margin-bottom: 5px ;
+
+}
+
+#rowOfCard3{
+    display: block;
+    margin-bottom: 5px ;
+
+}
+
+#Footer{
+    height: 40px;
+    width: 1260px;
+    background-color: rgb(1, 1, 41) ;
+    padding-top: 10px;
+    font: 1em  Arial ;
+    color: #fff;
+}
